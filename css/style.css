@@ -1,0 +1,188 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+    width: 100%;
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.gradient {
+    background: linear-gradient(270deg, #00C6FF 0%, #0072FF 101.47%)
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.header {
+    width: 100%;
+    padding: 40px 15px;
+    
+}
+
+.container {
+    max-width: 1114px;
+    margin: auto;
+}
+
+.main-nav {
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    margin-left: 66px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-nav a+a,
+.info-nav a+a {
+    margin-left: 30px;
+}
+
+.info-nav {
+    font-weight: 400;
+    color: white;
+    margin-left: auto;
+}
+
+.title {
+    width: 100%;
+    /* min-width: 960px; */
+    padding-top: 136px;
+}
+
+.offer {
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+.offer::before {
+    content: '';
+    background: url('../img/gagets.png') no-repeat;
+    width: 658px;
+    height: 606px;
+    position: absolute;
+    top: -10px;
+    left: -393px;
+    z-index: 100;
+}
+
+.vector-1 {
+  position: absolute;
+  top: 385px;
+  left: -443px;
+  z-index: 80;
+}
+
+.vector-2 {
+    position: absolute;
+    top: -48px;
+    left: -361px;
+    margin-left: -60px;
+}
+
+.offer::after {
+    content: '';
+    background: url('../img/people.png') no-repeat;
+    width: 537px;
+    height: 613px;
+    position: absolute;
+    top: -60px;
+    right: -282px;
+    max-width: 80%;
+    
+}
+
+.vector-3 {
+    position: absolute;
+    top: 67px;
+    right: -400px;
+}
+
+.vector-4 {
+    position: absolute;
+    top: -107px;
+    right: -395px;
+}
+.offer-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    width: 542px;
+}
+
+.offer-text {
+    font-size: 18px;
+    width: 383px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 19px;
+}
+
+span {
+    font-weight: 700;
+    color: white;
+}
+
+.btn {
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #0CEBEB 0%, #20E3B2 50%, #29FFC6 100%);
+    width: 238px;
+    height: 56px;
+    padding: 16px 30px;
+    box-shadow: 0px 4px 20px rgba(32, 228, 179, 0.85);
+    margin-top: 44px;
+}
+
+.no-sign-up {
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 14px;
+
+}
+
+.partners {
+    width: 100%;
+    padding-top: 168px;
+    
+}
+
+.email-spam-checker {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.our-partners {
+    justify-content: space-around;
+    color: white;
+    margin-top: 42px;
+    margin-bottom: 80px;
+}
+
+.our-partners a+a {
+    margin-left: 60px;
+}
